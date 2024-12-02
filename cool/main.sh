@@ -10,4 +10,4 @@ cd kadrun
 npm i user-agents axios colors p-limit https-proxy-agent socks-proxy-agent crypto ws uuid
 npm install crypto-js
 echo "$TOKEN" > datas.txt
-while :; do timeout 300 node bot; sleep 2;echo done;echo clearing log ......; done
+while :; do timeout 480 node bot; sleep 2;echo done;echo clearing log ......; done
